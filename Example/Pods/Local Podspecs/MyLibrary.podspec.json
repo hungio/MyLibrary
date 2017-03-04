@@ -1,0 +1,30 @@
+{
+  "name": "MyLibrary",
+  "version": "0.1.0",
+  "summary": "Demo of using cocoapods to create framework on iOS",
+  "description": "Demo of using cocoapods to create framework on iOS\nTODO: Add long description of the pod here.",
+  "homepage": "https://github.com/muahoatram/MyLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Danh Hung": "muahoatram@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/muahoatram/MyLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyLibrary/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "GoogleAnalytics": [
+
+    ]
+  }
+}

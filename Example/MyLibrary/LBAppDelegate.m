@@ -7,12 +7,16 @@
 //
 
 #import "LBAppDelegate.h"
+#import <AFNetworking/AFNetworking.h>
+#import <MyLibrary/Network.h>
+#import <GoogleAnalytics/GAI.h>
 
 @implementation LBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [Network invokeSomeTask];
     return YES;
 }
 
